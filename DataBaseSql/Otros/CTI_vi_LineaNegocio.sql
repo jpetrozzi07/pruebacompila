@@ -1,0 +1,11 @@
+USE CPILUNION
+GO
+CREATE VIEW [dbo].[CTI_vi_LineaNegocio]
+AS
+SELECT DISTINCT *
+FROM CTI_tb_LineaNegocio 
+
+
+GO
+
+

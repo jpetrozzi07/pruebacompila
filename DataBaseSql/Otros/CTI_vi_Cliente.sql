@@ -1,0 +1,9 @@
+USE CPILUNION
+GO
+CREATE VIEW [dbo].[CTI_vi_Cliente]
+AS
+SELECT *
+FROM [CPILUNION].[dbo].[CTI_tb_Cliente]
+GO
+
+
